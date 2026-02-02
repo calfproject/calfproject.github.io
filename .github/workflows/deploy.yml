@@ -36,7 +36,7 @@ jobs:
       run: opam exec -- forester build forest.toml
     
     - name: Customize favicon
-      run: cp asset/favicon.ico output/favicon.ico
+      run: cp assets/favicon.ico output/favicon.ico
 
     - name: Upload artifacts
       uses: actions/upload-pages-artifact@v4.0.0
