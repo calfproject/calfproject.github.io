@@ -1,6 +1,6 @@
-\title{Cost-Aware Logical Framework}
+\title{The Calf Project}
 \p{
-  The Cost-Aware Logical Framework (calf) development team aims to study the verification of cost and behavior of programs modularly in (dependent) type theories. TODO
+  The Cost-Aware Logical Framework (Calf) Project aims to develop a type theory for the modular verification of cost and behavior of algorithms and data structures.
 }
 \p{
   Search and explore this site by \code{Ctrl+K} (or \code{Cmd+K} on Mac).
