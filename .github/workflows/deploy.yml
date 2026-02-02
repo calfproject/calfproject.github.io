@@ -1,0 +1,63 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v5
+      with:
+        submodules: true
+
+    - name: Setup OCaml
+      uses: ocaml/setup-ocaml@v3
+      with:
+        ocaml-compiler: 5.3
+
+    - name: Install Forester
+      run: |
+        sudo apt-get install libev-dev
+        opam install forester.4.3.1
+
+    - name: Install LaTeX
+      run: sudo apt-get update && sudo apt-get install texlive-latex-extra
+
+    - name: Build forest
+      run: opam exec -- forester build forest.toml
+
+    - name: Upload artifacts
+      uses: actions/upload-pages-artifact@v4.0.0
+      with:
+        path: "output/"
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

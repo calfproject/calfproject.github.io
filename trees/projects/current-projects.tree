@@ -1,0 +1,7 @@
+\title{Current Projects}
+
+\put\transclude/expanded{false}
+\put\transclude/metadata{true}
+
+\transclude{project-amortized}
+\transclude{project-compiler}

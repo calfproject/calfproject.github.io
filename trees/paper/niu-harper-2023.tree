@@ -1,0 +1,22 @@
+\title{A Metalanguage for Cost-Aware Denotational Semantics}
+\taxon{Reference}
+\author{yuen}
+\author{rwh}
+\meta{venue}{[[lics23]]}
+\meta{external}{https://doi.org/10.1109/LICS56636.2023.10175777}
+
+\p{
+We present metalanguages for developing synthetic cost-aware denotational semantics of programming languages. Extending recent advances by Niu et al. in cost and behavioral verification in dependent type theory, we define two successively more expressive metalanguages for studying cost-aware metatheory. We construct synthetic denotational models of the simply-typed lambda calculus and Modernized Algol, a language with first-order store and while loops, and show that they satisfy a cost-aware generalization of the classic Plotkin-type computational adequacy theorem. Moreover, by developing our proofs in a synthetic language of phase-separated constructions of intension and extension, our results easily restrict to the corresponding extensional theorems. Consequently, our work provides a positive answer to the conjecture raised in op. cit. and contributes a framework for cost-aware programming, verification, and metatheory.
+}
+
+\pre{\startverb
+@inproceedings{niu-harper>2023,
+  title        = {A Metalanguage for Cost-Aware Denotational Semantics},
+  author       = {Niu, Yue and Harper, Robert},
+  year         = {2023},
+  booktitle    = {2023 38th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)},
+  pages        = {1--14},
+  doi          = {10.1109/LICS56636.2023.10175777},
+  keywords     = {Computer languages;Analytical models;Costs;Computational modeling;Semantics;Programming;Calculus;types;semantics;cost analysis}
+}
+\stopverb}

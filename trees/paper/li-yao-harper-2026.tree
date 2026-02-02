@@ -1,0 +1,48 @@
+\title{Mechanizing Synthetic Tait Computability in Istari}
+\taxon{Reference}
+\author{runmingl}
+\author{yueyao}
+\author{rwh}
+\meta{venue}{[[cpp26]]}
+\meta{external}{https://doi.org/10.1145/3779031.3779085}
+
+\p{
+Categorical gluing is a powerful technique for proving meta-
+theorems of type theories such as canonicity and normaliza-
+tion. Synthetic Tait Computability (STC) provides an abstract
+treatment of the complex gluing models by internalizing the
+gluing category into a modal dependent type theory with
+a phase distinction. This work presents a mechanization of
+STC in the Istari proof assistant. Istari is a Martin-Löf-
+style extensional type theory with equality reflection, which
+avoids much of the explicit transport reasoning typically
+found in intensional proof assistants. This work develops a
+reusable library for synthetic phase distinction, including
+modalities, extension types, and strict glue types, and applies
+it to two case studies: (1) a canonicity model for dependent
+type theory with dependent products and booleans with
+large elimination, and (2) a Kripke canonicity model for the
+cost-aware logical framework. Our results demonstrate that
+the core STC constructions can be formalized essentially
+verbatim in Istari, preserving the elegance of the on-paper
+arguments while ensuring machine-checked correctness.
+}
+
+\pre{\startverb
+@inproceedings{li-yao-harper>2026,
+  title        = {Mechanizing Synthetic Tait Computability in Istari},
+  author       = {Li, Runming and Yao, Yue and Harper, Robert},
+  year         = 2026,
+  booktitle    = {Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs},
+  location     = {Rennes, France},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  series       = {CPP '26},
+  pages        = {231–247},
+  doi          = {10.1145/3779031.3779085},
+  isbn         = 9798400723414,
+  url          = {https://doi.org/10.1145/3779031.3779085},
+  numpages     = 17,
+  keywords     = {Istari, cost-aware logical framework, equality reflection, extensional type theory, gluing, logical relations, meta-theory, synthetic Tait computability}
+}
+\stopverb}

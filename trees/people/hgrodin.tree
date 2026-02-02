@@ -1,0 +1,8 @@
+\title{Harrison Grodin}
+\taxon{Person}
+\meta{external}{https://www.harrisongrodin.com}
+\meta{institution}{[[cmu]]}
+\meta{orcid}{0000-0002-0947-3520}
+\meta{position}{Ph.D. Student}
+
+\p{Harrison Grodin is a fourth-year Ph.D. student in the Principles of Programming group in the Computer Science Department at Carnegie Mellon University, advised by [Robert Harper](rwh). His research is on programming language semantics, drawing inspiration from ideas in type theory and category theory.}

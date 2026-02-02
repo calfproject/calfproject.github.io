@@ -1,0 +1,8 @@
+\title{Ph.D. Alumni}
+\taxon{Team}
+
+\put\transclude/expanded{false}
+\put\transclude/metadata{true}
+
+\transclude{jmsterling}
+\transclude{yuen}

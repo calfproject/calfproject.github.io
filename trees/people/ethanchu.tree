@@ -1,0 +1,8 @@
+\title{Ethan Chu}
+\taxon{Person}
+\meta{external}{https://gediminas19.github.io}
+\meta{institution}{[[cmu]]}
+\meta{orcid}{0009-0005-6041-0313}
+\meta{position}{Ph.D. Student}
+
+\p{Ethan Chu is a 2nd-year PhD student in the Principles of Programming (PoP) group in Carnegie Mellon University’s Computer Science Department (CMU CSD), advised by [[janh]]. His research areas are programming languages and verification, with a focus on type systems and static resource analysis of programs.}

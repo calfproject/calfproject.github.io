@@ -1,0 +1,14 @@
+\title{Bibliography}
+
+\put\transclude/expanded{true}
+\put\transclude/numbered{true}
+
+\p{This page lists a complete bibliography of publications/manuscripts related to the calf project.}
+
+\transclude{bib-calf}
+\transclude{bib-calf-extensions}
+\transclude{bib-calf-cost}
+\transclude{bib-calf-metatheory}
+\transclude{bib-calf-meta}
+\transclude{bib-calf-thesis}
+

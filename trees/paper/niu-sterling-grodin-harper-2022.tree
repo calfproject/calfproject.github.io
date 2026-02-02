@@ -1,0 +1,37 @@
+\title{A cost-aware logical framework}
+\taxon{Reference}
+\author{yuen}
+\author{jmsterling}
+\author{hgrodin}
+\author{rwh}
+\meta{venue}{[[popl22]]}
+\meta{external}{https://doi.org/10.1145/3498670}
+
+
+\p{
+  We present calf, a cost-aware logical framework for studying quantitative aspects of functional programs. Taking inspiration from recent work that reconstructs traditional aspects of programming languages in terms of a modal account of phase distinctions, we argue that the cost structure of programs motivates a phase distinction between intension and extension. Armed with this technology, we contribute a synthetic account of cost structure as a computational effect in which cost-aware programs enjoy an internal noninterference property: input/output behavior cannot depend on cost. As a full-spectrum dependent type theory, calf presents a unified language for programming and specification of both cost and behavior that can be integrated smoothly with existing mathematical libraries available in type theoretic proof assistants.
+}
+
+\p{
+  We evaluate calf as a general framework for cost analysis by implementing two fundamental techniques for algorithm analysis: the method of recurrence relations and physicist’s method for amortized analysis. We deploy these techniques on a variety of case studies: we prove a tight, closed bound for Euclid’s algorithm, verify the amortized complexity of batched queues, and derive tight, closed bounds for the sequential and parallel complexity of merge sort, all fully mechanized in the Agda proof assistant. Lastly we substantiate the soundness of quantitative reasoning in calf by means of a model construction.
+}
+
+\pre{\startverb
+@article{niu-sterling-grodin-harper>2022,
+  title        = {A cost-aware logical framework},
+  author       = {Niu, Yue and Sterling, Jonathan and Grodin, Harrison and Harper, Robert},
+  year         = {2022},
+  month        = jan,
+  journal      = {Proc. ACM Program. Lang.},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  volume       = {6},
+  number       = {POPL},
+  doi          = {10.1145/3498670},
+  url          = {https://doi.org/10.1145/3498670},
+  issue_date   = {January 2022},
+  articleno    = {9},
+  numpages     = {31},
+  keywords     = {algorithm analysis, amortized analysis, behavioral verification, cost models, equational reasoning, intensional property, mechanized proof, modal type theory, noninterference, parallel algorithms, phase distinction, proof assistants, recurrence relations}
+}
+\stopverb}

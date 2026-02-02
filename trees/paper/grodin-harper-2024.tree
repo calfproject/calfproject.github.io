@@ -1,0 +1,27 @@
+\title{Amortized Analysis via Coalgebra}
+\taxon{Reference}
+\author{hgrodin}
+\author{rwh}
+\meta{venue}{[[mfps24]]}
+\meta{external}{https://doi.org/10.46298/entics.14797}
+
+\p{
+Amortized analysis is a cost analysis technique for data structures in which cost is studied in aggregate: rather than considering the maximum cost of a single operation, one bounds the total cost encountered throughout a session.
+Traditionally, amortized analysis has been phrased inductively, quantifying over finite sequences of operations. Connecting to prior work on coalgebraic semantics for data structures, we develop the alternative perspective that amortized analysis is naturally viewed coalgebraically in a category of cost algebras, where a morphism of coalgebras serves as a first-class generalization of potential function suitable for integrating cost and behavior. Using this simple definition, we consider amortization of other sample effects, non-commutative printing and randomization. To support imprecise amortized upper bounds, we adapt our discussion to the bicategorical setting, where a potential function is a colax morphism of coalgebras. We support algebraic and coalgebraic operations simultaneously by using coalgebras for an endoprofunctor instead of an endofunctor, combining potential using a monoidal structure on the underlying category. Finally, we compose amortization arguments in the indexed category of coalgebras to implement one amortized data structure in terms of others.
+}
+
+\pre{\startverb
+@article{grodin-harper>2024,
+  title        = {Amortized Analysis via Coalgebra},
+  author       = {Harrison Grodin and Robert Harper},
+  year         = {2024},
+  month        = {Dec},
+  journal      = {Electronic Notes in Theoretical Informatics and Computer Science},
+  volume       = {Volume 4 - Proceedings of MFPS XL},
+  doi          = {10.46298/entics.14797},
+  issn         = {2969-2431},
+  url          = {https://entics.episciences.org/14797},
+  eid          = {10},
+  keywords     = {Computer Science - Programming Languages, Computer Science - Data Structures and Algorithms, Mathematics - Category Theory}
+}
+\stopverb}

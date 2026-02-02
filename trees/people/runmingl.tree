@@ -1,0 +1,8 @@
+\title{Runming Li}
+\taxon{Person}
+\meta{external}{https://www.cs.cmu.edu/~runmingl/}
+\meta{institution}{[[cmu]]}
+\meta{orcid}{0000-0001-7600-9069}
+\meta{position}{Ph.D. Student}
+
+\p{Runming Li is a second-year Ph.D. student in the Computer Science Department at Carnegie Mellon University, advised by Prof. [Robert Harper](rwh). He studies semantics of programming languages from the perspectives of (dependent) type theory and category theory. More broadly, he is interested in the design and implementation of functional programming languages and proof assistants that facilitate the construction and verification of correct and efficient programs.}

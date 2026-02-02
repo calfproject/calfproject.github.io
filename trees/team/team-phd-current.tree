@@ -1,0 +1,9 @@
+\title{Current Ph.D. Students}
+\taxon{Team}
+
+\put\transclude/expanded{false}
+\put\transclude/metadata{true}
+
+\transclude{hgrodin}
+\transclude{runmingl}
+\transclude{ethanchu}

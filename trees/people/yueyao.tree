@@ -1,0 +1,8 @@
+\title{Yue Yao}
+\taxon{Person}
+\meta{external}{https://www.cs.cmu.edu/~yueyao/}
+\meta{institution}{[[cmu]]}
+\meta{orcid}{0000-0001-8523-5156}
+\meta{position}{Ph.D. Student}
+
+\p{Yue Yao is a 4th year PhD student at Carnegie Mellon University studying programming languages. His research applies semantic methods, most notably the method of logical relations, to interesting applied and theoretical problems pertaining to substructural types and concurrency, including session types. Towards these ends, his research also involves (linear) type theories and mechanizing results in a theorem prover. His research aims to enable the design of practical, multiparadigm languages equipped with sophisticated type systems and strong theoretical guarantees. He is advised by Stephanie Balzer.}
