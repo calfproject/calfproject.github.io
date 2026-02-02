@@ -1,0 +1,8 @@
+\title{Research Artifacts}
+
+\put\transclude/expanded{false}
+\put\transclude/metadata{true}
+
+\transclude{calf-agda}
+\transclude{afat-agda}
+\transclude{stc-istari}

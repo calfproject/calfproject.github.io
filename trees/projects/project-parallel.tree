@@ -8,3 +8,4 @@
 \transclude{parallel}
 \transclude{ver-sorting}
 \transclude{ver-prefixsum}
+\transclude{ver-rbt}

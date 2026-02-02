@@ -1,0 +1,19 @@
+\title{Agda Implementation of Calf}
+\taxon{Artifact}
+\author{yuen}
+\author{jmsterling}
+\author{hgrodin}
+\author{rwh}
+\contributor{runmingl}
+\contributor{azhou4}
+\contributor{lkebulad}
+
+\p{
+    \ul{
+        \li{GitHub repository: [https://github.com/calfproject/agda-calf](https://github.com/calfproject/agda-calf)}
+        \li{Rendered view: [https://calfproject.github.io/agda-calf/](https://calfproject.github.io/agda-calf/)}
+    }
+}
+\p{
+    This repository contains an Agda implementation of [Calf](niu-sterling-grodin-harper-2022) and [Decalf](grodin-niu-sterling-harper-2024). It also includes various case studies demonstrating the use of Calf and Decalf for cost and behavior verification of algorithms and data structures, such as those for [[ver-euclid]], [[ver-sorting]], [[ver-parsorting]], [[ver-prefixsum]], [[ver-rbt]], and [[ver-splaytree]].
+}

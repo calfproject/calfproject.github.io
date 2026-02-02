@@ -17,4 +17,5 @@
 \put\transclude/expanded{false}
 
 \transclude{bib}
+\transclude{artifact}
 \transclude{team}

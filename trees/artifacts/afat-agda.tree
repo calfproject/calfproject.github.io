@@ -1,0 +1,15 @@
+\title{Cubical Agda Implementation of Abstraction Functions as Types}
+\taxon{Artifact}
+\author{hgrodin}
+\author{runmingl}
+\author{rwh}
+
+\p{
+    \ul{
+        \li{Zenodo repository: [https://doi.org/10.5281/zenodo.17344235](https://doi.org/10.5281/zenodo.17344235)}
+        \li{Rendered view: [https://www.cs.cmu.edu/~runmingl/afat/](https://www.cs.cmu.edu/~runmingl/afat/)}
+    }
+}
+\p{
+    This repository contains a Cubical Agda implementation of [Abstraction Functions as Types](grodin-li-harper-2026) and a case study demonstrating its use for verifying functional queues. 
+}

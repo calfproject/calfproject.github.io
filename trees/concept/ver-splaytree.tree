@@ -6,3 +6,7 @@
 \import{base-macros}
 
 \p{[[kebuladze-2025]]}
+
+\p{
+    Formalization: [splay tree](https://lk672.github.io/splay/Examples.Amortized.SplayTree.html)
+}

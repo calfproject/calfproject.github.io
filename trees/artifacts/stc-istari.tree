@@ -1,0 +1,14 @@
+\title{Mechanized Synthetic Tait Computability in Istari}
+\taxon{Artifact}
+\author{runmingl}
+\author{yueyao}
+\author{rwh}
+
+\p{
+    \ul{
+        \li{GitHub repository: [https://github.com/runmingl/istari-stc](https://github.com/runmingl/istari-stc)}
+    }
+}
+\p{
+    This repository contains a mechanized proof of synthetic Tait computability of MLTT and Calf in the Istari proof assistant, as described in [[li-yao-harper-2026]].
+}

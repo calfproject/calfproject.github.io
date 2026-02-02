@@ -7,3 +7,7 @@
 \import{base-macros}
 
 \p{[[niu-sterling-grodin-harper-2022]], [[grodin-niu-sterling-harper-2024]]}
+
+\p{
+    Formalization: [Insertion sort and merge sort](https://calfproject.github.io/agda-calf/Examples.Sorting.Sequential.html), [quick sort](https://calfproject.github.io/agda-calf/Examples.Decalf.Nondeterminism.html)
+}
