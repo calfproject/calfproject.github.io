@@ -27,7 +27,7 @@ jobs:
     - name: Install Forester
       run: |
         sudo apt-get install libev-dev
-        opam install forester.4.3.1
+        opam install forester.5
 
     - name: Install LaTeX
       run: sudo apt-get update && sudo apt-get install texlive-latex-extra
