@@ -1,7 +1,11 @@
-\title{Current Projects}
+\title{Research Directions}
 
 \put\transclude/expanded{false}
 \put\transclude/metadata{true}
 
+\transclude{project-cost}
+\transclude{project-parallel}
+\transclude{project-behavior}
+\transclude{project-modularity}
 \transclude{project-amortized}
 \transclude{project-compiler}

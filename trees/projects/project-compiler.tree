@@ -1,10 +1,4 @@
 \title{Cost-Aware Compilation}
 \taxon{Project}
-
-\p{
-description here: TODO
-}
-
-\p{
-  This project is led by [[runmingl]].
-}
+\author{runmingl}
+\author{rwh}

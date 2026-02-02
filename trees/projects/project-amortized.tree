@@ -1,10 +1,9 @@
-\title{Synthetic Amortized Analysis}
+\title{Amortized Analysis}
 \taxon{Project}
+\author{hgrodin}
+\author{rwh}
+\contributor{ethanchu}
+\contributor{janh}
 
-\p{
-description here: RAML? 
-}
-
-\p{
-  This project is led by [[hgrodin]] and [[ethanchu]].
-}
+\p{[[grodin-harper-2024]]}
+\transclude{ver-splaytree}

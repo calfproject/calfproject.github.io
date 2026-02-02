@@ -1,0 +1,16 @@
+\title{Cost Analysis in Dependent Type Theory}
+\taxon{Project}
+\author{hgrodin}
+\author{yuen}
+\author{jmsterling}
+\author{rwh}
+
+\transclude{adjoint-type-theory}
+\transclude{cost-monoid}
+\transclude{cost-effect}
+\p{The cost effect commutes with elimination forms of computation types.}
+\transclude{inequality}
+\p{The cost and behavior of programs can be analyzed using this notion of inequality.}
+\transclude{ver-euclid}
+\transclude{ver-sorting}
+\transclude{ver-rbt}

@@ -1,0 +1,13 @@
+\title{adjoint type theory}
+\taxon{Concept}
+
+\import{base-macros}
+
+\p{Calf is a dependent adjoint type theory, building on Call-By-Push-Value and the Enriched Effect Calculus.}
+
+##{
+  \begin{array}{cccl}
+    \text{Value Type} & X,Y,Z & ::= & \U{A} \mid 0 \mid X + Y \mid \mathbb{N} \mid 1 \mid X \times Y \mid \cdots \mid X \to Y \mid A \multimap B \\
+    \text{Comp. Type} & A,B,C & ::= & \F{X} \mid X \rightharpoonup A \mid X \rtimes A
+  \end{array}
+}

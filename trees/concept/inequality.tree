@@ -1,0 +1,24 @@
+\title{judgmental inequality}
+\taxon{Concept}
+\author{yuen}
+\author{jmsterling}
+\author{hgrodin}
+\author{rwh}
+
+\import{base-macros}
+
+\p{
+  Calf includes a judgmental notion of inequality between programs ([[grodin-niu-sterling-harper-2024]]) that includes both cost and correctness: for any type #{X} and programs #{x,x' : X}, it is the case that #{x \le_X x'} when
+  \ol{
+    \li{the cost of #{x} is upper bounded by the cost of #{x'} and}
+    \li{#{x} and #{x'} have the same behavior.}
+  }
+  It is axiomatized that inequality is
+  \ol{
+    \li{reflexive (#{x \le_X x}),}
+    \li{transitive (#{x \le_X x'} and #{x' \le_X x''} implies #{x \le_X x''}), and}
+    \li{pointwise on functions (for #{f,f' : X \to Y}, if #{f(x) \le_Y f'(x)} for all #{x : X}, then #{f \le_{X \to Y} f'}); and}
+    \li{all functions #{f : X \to Y} are monotone (#{x \le_X x'} implies #{f(x) \le_Y f(x')}).}
+  }
+  By monotonicity, #{c \le_\C c'} ([[cost-monoid]]) implies #{\charge{c}{a} \le \charge{c'}{a}} ([[cost-effect]]).
+}

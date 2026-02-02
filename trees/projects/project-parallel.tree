@@ -1,0 +1,10 @@
+\title{Parallel Cost Analysis}
+\taxon{Project}
+\author{yuen}
+\author{jmsterling}
+\author{hgrodin}
+\author{rwh}
+
+\transclude{parallel}
+\transclude{ver-sorting}
+\transclude{ver-prefixsum}

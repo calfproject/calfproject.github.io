@@ -1,0 +1,25 @@
+\title{cost effect}
+\taxon{Concept}
+\author{yuen}
+\author{jmsterling}
+\author{hgrodin}
+\author{rwh}
+
+\import{base-macros}
+
+\p{
+  In Calf, cost is rendered as an \em{effect} ([[niu-sterling-grodin-harper-2022]]).
+  Using the [[cost-monoid]], the effect #{\charge{c}{a}} means "record #{c : \C} units of cost, and then run computation #{a}".
+  ##{
+    \frac
+      {\Gamma \vdash c : \C  \qquad \Gamma \vdash a : A}
+      {\Gamma \vdash \charge{c}{a} : A}
+  }
+  This effect is compatible with the monoid structure:
+  ##{
+    \begin{align*}
+      \charge{0}{a} &= a \\
+      \charge{c_1 + c_2}{a} &= \charge{c_1}{\charge{c_2}{a}}
+    \end{align*}
+  }
+}
