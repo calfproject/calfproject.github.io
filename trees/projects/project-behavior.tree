@@ -5,4 +5,6 @@
 \author{hgrodin}
 \author{rwh}
 
+\put\transclude/expanded{false}
+
 \transclude{behavioral-phase}

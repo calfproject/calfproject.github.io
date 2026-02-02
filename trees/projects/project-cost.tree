@@ -5,6 +5,8 @@
 \author{jmsterling}
 \author{rwh}
 
+\put\transclude/expanded{false}
+
 \transclude{adjoint-type-theory}
 \transclude{cost-monoid}
 \transclude{cost-effect}

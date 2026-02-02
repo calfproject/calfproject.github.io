@@ -1,0 +1,12 @@
+\title{batched queue}
+\taxon{Case Study}
+\author{hgrodin}
+\author{yuen}
+
+\import{base-macros}
+
+\p{[[niu-sterling-grodin-harper-2022]], [[grodin-harper-2023]], [[grodin-harper-2024]]}
+
+\p{
+    Formalization: [batched queue](https://calfproject.github.io/agda-calf/Examples.Amortized.Queue.html)
+}

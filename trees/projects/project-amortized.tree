@@ -5,5 +5,9 @@
 \contributor{ethanchu}
 \contributor{janh}
 
+\put\transclude/expanded{false}
+
 \p{[[grodin-harper-2024]]}
 \transclude{ver-splaytree}
+\transclude{ver-queue}
+\transclude{ver-dynarr}

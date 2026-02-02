@@ -5,6 +5,8 @@
 \author{hgrodin}
 \author{rwh}
 
+\put\transclude/expanded{false}
+
 \transclude{parallel}
 \transclude{ver-sorting}
 \transclude{ver-prefixsum}
