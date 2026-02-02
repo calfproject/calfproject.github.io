@@ -1,4 +1,7 @@
 \title{The Calf Project}
+
+\author{team}
+
 \p{
   The Cost-Aware Logical Framework (Calf) Project aims to develop a type theory for the modular verification of cost and behavior of algorithms and data structures.
 }
