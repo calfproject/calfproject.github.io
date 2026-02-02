@@ -1,6 +1,8 @@
-\title{Original development of calf}
+\title{Core development of Calf}
 
 \put\transclude/metadata{true}
 \put\transclude/expanded{false}
 
 \transclude{niu-sterling-grodin-harper-2022}
+\transclude{grodin-niu-sterling-harper-2024}
+\transclude{grodin-li-harper-2026}
