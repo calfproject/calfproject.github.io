@@ -3,12 +3,7 @@
 \author{azhou4}
 \meta{venue}{Technical Report, [[cmu]]}
 \meta{external}{https://www.cs.cmu.edu/~runmingl/student/zhou-scan.pdf}
-
-\p{
-  CMU undergraduate summer SURA project report by [[azhou4]], supervised by [[runmingl]].
-}
-
-\pre{\startverb
+\meta{bibtex}\verb<<<|
 @techreport{zhou>2025,
   title        = {Formally Verified Cost of the Parallel Prefix Sum Algorithm},
   author       = {Andrew Zhou},
@@ -16,5 +11,8 @@
   month        = {aug},
   url          = {https://www.cs.cmu.edu/~runmingl/student/zhou-scan.pdf},
   institution  = {Carnegie Mellon University}
+}<<<
+
+\p{
+  CMU undergraduate summer SURA project report by [[azhou4]], supervised by [[runmingl]].
 }
-\stopverb}

@@ -3,13 +3,8 @@
 \author{runmingl}
 \author{rwh}
 \meta{venue}{Manuscript}
-\meta{external}{https://arxiv.org/abs/2504.12464}
-
-\p{
-In the original work on the cost-aware logical framework by Niu et al., a dependent variant of the call-by-push-value language for cost analysis, the authors conjectured that the canonicity property of the type theory can be succinctly proved via Sterling's synthetic Tait computability. This work resolves the conjecture affirmatively.
-}
-
-\pre{\startverb
+\meta{doi}{10.48550/arXiv.2504.12464}
+\meta{bibtex}\verb<<<|
 @misc{li-harper>2025,
   title        = {Canonicity for Cost-Aware Logical Framework via Synthetic Tait Computability},
   author       = {Runming Li and Robert Harper},
@@ -18,5 +13,8 @@ In the original work on the cost-aware logical framework by Niu et al., a depend
   eprint       = {2504.12464},
   archiveprefix = {arXiv},
   primaryclass = {cs.PL}
+}<<<
+
+\p{
+In the original work on the cost-aware logical framework by Niu et al., a dependent variant of the call-by-push-value language for cost analysis, the authors conjectured that the canonicity property of the type theory can be succinctly proved via Sterling's synthetic Tait computability. This work resolves the conjecture affirmatively.
 }
-\stopverb}

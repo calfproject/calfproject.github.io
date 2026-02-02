@@ -4,14 +4,8 @@
 \author{jmsterling}
 \author{rwh}
 \meta{venue}{[[mfps24]]}
-\meta{external}{https://doi.org/10.46298/entics.14732}
-
-\p{
-We study a cost-aware programming language for higher-order recursion dubbed #{\mathbf{PCF}_{\mathsf{cost}}} in the setting of synthetic domain theory (SDT).
-Our main contribution relates the denotational cost semantics of #{\mathbf{PCF}_{\mathsf{cost}}} to its computational cost semantics, a new kind of dynamic semantics for program execution that serves as a mathematically natural alternative to operational semantics in SDT. In particular we prove an internal, cost-sensitive version of Plotkin's computational adequacy theorem, giving a precise correspondence between the denotational and computational semantics for complete programs at base type. The constructions and proofs of this paper take place in the internal dependent type theory of an SDT topos extended by a phase distinction in the sense of Sterling and Harper. By controlling the interpretation of cost structure via the phase distinction in the denotational semantics, we show that #{\mathbf{PCF}_{\mathsf{cost}}} programs also evince a noninterference property of cost and behavior. We verify the axioms of the type theory by means of a model construction based on relative sheaf models of SDT.
-}
-
-\pre{\startverb
+\meta{doi}{10.46298/entics.14732}
+\meta{bibtex}\verb<<<|
 @article{niu-sterling-harper>2024,
   title        = {Cost-sensitive computational adequacy of higher-order recursion in synthetic domain theory},
   author       = {Yue Niu and Jonathan Sterling and Robert Harper},
@@ -24,5 +18,9 @@ Our main contribution relates the denotational cost semantics of #{\mathbf{PCF}_
   url          = {https://entics.episciences.org/14732},
   eid          = {18},
   keywords     = {Computer Science - Programming Languages}
+}<<<
+
+\p{
+We study a cost-aware programming language for higher-order recursion dubbed #{\mathbf{PCF}_{\mathsf{cost}}} in the setting of synthetic domain theory (SDT).
+Our main contribution relates the denotational cost semantics of #{\mathbf{PCF}_{\mathsf{cost}}} to its computational cost semantics, a new kind of dynamic semantics for program execution that serves as a mathematically natural alternative to operational semantics in SDT. In particular we prove an internal, cost-sensitive version of Plotkin's computational adequacy theorem, giving a precise correspondence between the denotational and computational semantics for complete programs at base type. The constructions and proofs of this paper take place in the internal dependent type theory of an SDT topos extended by a phase distinction in the sense of Sterling and Harper. By controlling the interpretation of cost structure via the phase distinction in the denotational semantics, we show that #{\mathbf{PCF}_{\mathsf{cost}}} programs also evince a noninterference property of cost and behavior. We verify the axioms of the type theory by means of a model construction based on relative sheaf models of SDT.
 }
-\stopverb}

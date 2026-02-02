@@ -3,6 +3,15 @@
 \author{lkebulad}
 \meta{venue}{Technical Report, [[cmu]]}
 \meta{external}{https://www.cs.cmu.edu/~runmingl/student/kebuladze-splay.pdf}
+\meta{bibtex}\verb<<<|
+@techreport{kebuladze>2025,
+  title        = {Amortized Analysis of Splay Trees via a Lax Homomorphism},
+  author       = {Lukas Kebuladze},
+  year         = {2025},
+  month        = {aug},
+  url          = {https://www.cs.cmu.edu/~runmingl/student/kebuladze-splay.pdf},
+  institution  = {Carnegie Mellon University}
+}<<<
 
 \p{
   CMU undergraduate summer SURA project report by [[lkebulad]], supervised by [[runmingl]].
@@ -11,14 +20,3 @@
 \p{
   3rd place winner in the undergraduate category of the [2026 POPL Student Research Competition](https://popl26.sigplan.org/track/POPL-2026-student-research-competition?).
 }
-
-\pre{\startverb
-@techreport{kebuladze>2025,
-  title        = {Amortized Analysis of Splay Trees via a Lax Homomorphism},
-  author       = {Lukas Kebuladze},
-  year         = {2025},
-  month        = {aug},
-  url          = {https://www.cs.cmu.edu/~runmingl/student/kebuladze-splay.pdf},
-  institution  = {Carnegie Mellon University}
-}
-\stopverb}

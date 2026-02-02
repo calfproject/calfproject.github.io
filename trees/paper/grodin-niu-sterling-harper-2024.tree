@@ -5,31 +5,8 @@
 \author{jmsterling}
 \author{rwh}
 \meta{venue}{[[popl24]]}
-\meta{external}{https://doi.org/10.1145/3632852}
-
-\p{
-  We present decalf, a directed, eﬀectful cost-aware logical framework for studying quantitative aspects of
-functional programs with eﬀects. Like calf, the language is based on a formal phase distinction between the
-extension and the intension of a program, its pure behavior as distinct from its cost measured by an eﬀectful
-step-counting primitive. The type theory ensures that the behavior is unaﬀected by the cost accounting.
-Unlike calf, the present language takes account of eﬀects, such as probabilistic choice and mutable state. This
-extension requires a reformulation of calf’s approach to cost accounting: rather than rely on a “separable”
-notion of cost, here a cost bound is simply another program. To make this formal, we equip every type with an
-intrinsic preorder, relaxing the precise cost accounting intrinsic to a program to a looser but nevertheless
-informative estimate. For example, the cost bound of a probabilistic program is itself a probabilistic program
-that speciﬁes the distribution of costs. This approach serves as a streamlined alternative to the standard
-method of isolating a cost recurrence and readily extends to higher-order, eﬀectful programs.
-}
-
-\p{
-  The development proceeds by ﬁrst introducing the decalf type system, which is based on an intrinsic
-ordering among terms that restricts in the extensional phase to extensional equality, but in the intensional
-phase reﬂects an approximation of the cost of a program of interest. This formulation is then applied to a
-number of illustrative examples, including pure and eﬀectful sorting algorithms, simple probabilistic programs,
-and higher-order functions. Finally, we justify decalf via a model in the topos of augmented simplicial sets.
-}
-
-\pre{\startverb
+\meta{doi}{10.1145/3632852}
+\meta{bibtex}\verb<<<|
 @article{grodin-niu-sterling-harper>2024,
   title        = {Decalf: A Directed, Effectful Cost-Aware Logical Framework},
   author       = {Grodin, Harrison and Niu, Yue and Sterling, Jonathan and Harper, Robert},
@@ -46,5 +23,26 @@ and higher-order functions. Finally, we justify decalf via a model in the topos 
   articleno    = {10},
   numpages     = {29},
   keywords     = {algorithm analysis, cost models, phase distinction, noninterference, intensional property, behavioral verification, equational reasoning, modal type theory, mechanized proof, proof assistants, recurrence relations, amortized analysis, parallel algorithms}
+}<<<
+
+\p{
+  We present Decalf, a directed, eﬀectful cost-aware logical framework for studying quantitative aspects of
+functional programs with eﬀects. Like calf, the language is based on a formal phase distinction between the
+extension and the intension of a program, its pure behavior as distinct from its cost measured by an eﬀectful
+step-counting primitive. The type theory ensures that the behavior is unaﬀected by the cost accounting.
+Unlike calf, the present language takes account of eﬀects, such as probabilistic choice and mutable state. This
+extension requires a reformulation of calf’s approach to cost accounting: rather than rely on a “separable”
+notion of cost, here a cost bound is simply another program. To make this formal, we equip every type with an
+intrinsic preorder, relaxing the precise cost accounting intrinsic to a program to a looser but nevertheless
+informative estimate. For example, the cost bound of a probabilistic program is itself a probabilistic program
+that speciﬁes the distribution of costs. This approach serves as a streamlined alternative to the standard
+method of isolating a cost recurrence and readily extends to higher-order, eﬀectful programs.
 }
-\stopverb}
+
+\p{
+  The development proceeds by ﬁrst introducing the Decalf type system, which is based on an intrinsic
+ordering among terms that restricts in the extensional phase to extensional equality, but in the intensional
+phase reﬂects an approximation of the cost of a program of interest. This formulation is then applied to a
+number of illustrative examples, including pure and eﬀectful sorting algorithms, simple probabilistic programs,
+and higher-order functions. Finally, we justify Decalf via a model in the topos of augmented simplicial sets.
+}

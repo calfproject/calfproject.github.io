@@ -4,7 +4,24 @@
 \author{yueyao}
 \author{rwh}
 \meta{venue}{[[cpp26]]}
-\meta{external}{https://doi.org/10.1145/3779031.3779085}
+\meta{doi}{10.1145/3779031.3779085}
+\meta{bibtex}\verb<<<|
+@inproceedings{li-yao-harper>2026,
+  title        = {Mechanizing Synthetic Tait Computability in Istari},
+  author       = {Li, Runming and Yao, Yue and Harper, Robert},
+  year         = 2026,
+  booktitle    = {Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs},
+  location     = {Rennes, France},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  series       = {CPP '26},
+  pages        = {231–247},
+  doi          = {10.1145/3779031.3779085},
+  isbn         = 9798400723414,
+  url          = {https://doi.org/10.1145/3779031.3779085},
+  numpages     = 17,
+  keywords     = {Istari, cost-aware logical framework, equality reflection, extensional type theory, gluing, logical relations, meta-theory, synthetic Tait computability}
+}<<<
 
 \p{
 Categorical gluing is a powerful technique for proving meta-
@@ -27,22 +44,3 @@ the core STC constructions can be formalized essentially
 verbatim in Istari, preserving the elegance of the on-paper
 arguments while ensuring machine-checked correctness.
 }
-
-\pre{\startverb
-@inproceedings{li-yao-harper>2026,
-  title        = {Mechanizing Synthetic Tait Computability in Istari},
-  author       = {Li, Runming and Yao, Yue and Harper, Robert},
-  year         = 2026,
-  booktitle    = {Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs},
-  location     = {Rennes, France},
-  publisher    = {Association for Computing Machinery},
-  address      = {New York, NY, USA},
-  series       = {CPP '26},
-  pages        = {231–247},
-  doi          = {10.1145/3779031.3779085},
-  isbn         = 9798400723414,
-  url          = {https://doi.org/10.1145/3779031.3779085},
-  numpages     = 17,
-  keywords     = {Istari, cost-aware logical framework, equality reflection, extensional type theory, gluing, logical relations, meta-theory, synthetic Tait computability}
-}
-\stopverb}

@@ -4,7 +4,25 @@
 \author{runmingl}
 \author{rwh}
 \meta{venue}{[[popl26]]}
-\meta{external}{https://doi.org/10.1145/3776673}
+\meta{doi}{10.1145/3776673}
+\meta{bibtex}\verb<<<|
+@article{grodin-li-harper>2026,
+  title        = {Abstraction Functions as Types: Modular Verification of Cost and Behavior in Dependent Type Theory},
+  author       = {Grodin, Harrison and Li, Runming and Harper, Robert},
+  year         = 2026,
+  month        = jan,
+  journal      = {Proc. ACM Program. Lang.},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  volume       = 10,
+  number       = {POPL},
+  doi          = {10.1145/3776673},
+  url          = {https://doi.org/10.1145/3776673},
+  issue_date   = {January 2026},
+  articleno    = 31,
+  numpages     = 28,
+  keywords     = {abstract data type, abstraction, abstraction function, algorithm, algorithm analysis, call-by-push-value, concrete type, cost analysis, data structure, dependent type theory, equational reasoning, information flow, modal type theory, modularity, noninterference, phase distinction, verification}
+}<<<
 
 \p{
   Software development depends on the use of libraries whose public specifications inform client code and
@@ -30,23 +48,3 @@ upper-bounded by its specification in cases where private details influence obse
 theory supports modular development of programs and proofs in a manner that hides private details of no
 concern to clients while permitting precise specifications of both the cost and behavior of programs.
 }
-
-\pre{\startverb
-@article{grodin-li-harper>2026,
-  title        = {Abstraction Functions as Types: Modular Verification of Cost and Behavior in Dependent Type Theory},
-  author       = {Grodin, Harrison and Li, Runming and Harper, Robert},
-  year         = 2026,
-  month        = jan,
-  journal      = {Proc. ACM Program. Lang.},
-  publisher    = {Association for Computing Machinery},
-  address      = {New York, NY, USA},
-  volume       = 10,
-  number       = {POPL},
-  doi          = {10.1145/3776673},
-  url          = {https://doi.org/10.1145/3776673},
-  issue_date   = {January 2026},
-  articleno    = 31,
-  numpages     = 28,
-  keywords     = {abstract data type, abstraction, abstraction function, algorithm, algorithm analysis, call-by-push-value, concrete type, cost analysis, data structure, dependent type theory, equational reasoning, information flow, modal type theory, modularity, noninterference, phase distinction, verification}
-}
-\stopverb}

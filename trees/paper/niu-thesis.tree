@@ -3,6 +3,16 @@
 \author{yuen}
 \meta{venue}{Ph.D. Thesis, [[cmu]]}
 \meta{external}{https://yuesforest.com/papers/thesis.pdf}
+\meta{bibtex}\verb<<<|
+@phdthesis{niu>thesis,
+  title        = {{Cost-sensitive programming, verification, and semantics}},
+  author       = {Yue Niu},
+  year         = {2025},
+  month        = {2},
+  doi          = {10.1184/R1/28352006.v1},
+  url          = {https://kilthub.cmu.edu/articles/thesis/Cost-sensitive_programming_verification_and_semantics/28352006},
+  school       = {Carnegie Mellon University}
+}<<<
 
 \p{
 Although the pure functional semantics of computer programs has been well-studied since
@@ -17,15 +27,3 @@ and verification, I demonstrate the ability of the internal type theory to media
 cost-sensitive and purely functional verification. At the level of semantics, I prove an internal,
 cost-sensitive version of a classical result of Plotkin’s — computational adequacy for PCF.
 }
-
-\pre{\startverb
-@phdthesis{niu>thesis,
-  title        = {{Cost-sensitive programming, verification, and semantics}},
-  author       = {Yue Niu},
-  year         = {2025},
-  month        = {2},
-  doi          = {10.1184/R1/28352006.v1},
-  url          = {https://kilthub.cmu.edu/articles/thesis/Cost-sensitive_programming_verification_and_semantics/28352006},
-  school       = {Carnegie Mellon University}
-}
-\stopverb}
