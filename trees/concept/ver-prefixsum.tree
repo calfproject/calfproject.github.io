@@ -6,3 +6,7 @@
 \import{base-macros}
 
 \p{[[zhou-2025]]}
+
+\p{
+    Formalization: [parallel scan](https://andrewxzhou.github.io/calf-scan/Examples.Scan.html)
+}
