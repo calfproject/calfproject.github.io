@@ -8,3 +8,10 @@
 \import{base-macros}
 
 \p{[[niu-sterling-grodin-harper-2022]]}
+
+\p{
+    One [[cost-monoid]] instance of particular interest for parallel cost analysis is the #{(\N^2, \le_{\N^2}, (0,0), \oplus)} monoid, where #{\oplus} and #{\le_{\N^2}} are defined component-wise. Here, the first component represents \strong{work} (total number of sequential computation steps taken) and the second component represents \strong{span} (the length of the longest chain of sequential dependencies, or the parallel computation steps assuming infinite processors). 
+}
+\p{
+    Critically the parallel composition operator for this monoid is given by #{(a_1, a_2) \otimes (b_1, b_2) = (a_1 + b_1, \max(a_2, b_2))}.
+}

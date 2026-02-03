@@ -5,7 +5,13 @@
 
 \import{base-macros}
 
-\p{[[zhou-2025]]}
+\p{
+    The parallel prefix sum (or scan) algorithm computes all the prefix sums of a sequence in parallel. Given a sequence #{l = [a_1, a_2, \ldots, a_n]} and a monoid #{(\oplus, \epsilon)}, the prefix sums are defined as the sequence #{[\epsilon, a_1, a_1 \oplus a_2, \ldots, a_1 \oplus a_2 \oplus \cdots \oplus a_n]}. [[zhou-2025]] studies three implementations of parallel scan: a brute-force algorithm, a work-efficient algorithm, and a balanced algorithm, each with different trade-offs between work and span.
+}
+
+\transclude{scan-bf}
+\transclude{scan-dc}
+\transclude{scan-con}
 
 \p{
     Formalization: [parallel scan](https://andrewxzhou.github.io/calf-scan/Examples.Scan.html)

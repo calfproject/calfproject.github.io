@@ -6,3 +6,9 @@
 \import{base-macros}
 
 \p{[[li-grodin-harper-2023]]}
+
+\p{
+    Standard binary tree algorithms use insertion as a primitive operation to build trees. However, insertion is inherently sequential, limiting the parallelism of tree construction. To address this, we study the join operation, which merges two red-black trees and preserves the red-black invariants.
+}
+
+\transclude{rbt-join}

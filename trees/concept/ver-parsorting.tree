@@ -6,4 +6,10 @@
 
 \import{base-macros}
 
-\p{[[niu-sterling-grodin-harper-2022]]}
+\p{
+    [[niu-sterling-grodin-harper-2022]] presents a few verified parallel sorting algorithms implemented in Calf using the [[parallel]] monoid.
+}
+
+\transclude{par-isort}
+\transclude{par-msort1}
+\transclude{par-msort2}

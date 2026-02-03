@@ -1,0 +1,7 @@
+\title{contraction scan}
+\taxon{Theorem}
+\import{base-macros}
+
+\p{
+    The contraction scan algorithm improves parallelism as well as work efficiency: we have that \isBounded{\scancon{l}{\oplus}{\epsilon}}{(14 \cdot |l|, 4 \cdot \lceil \log{|l|} \rceil)}.
+}

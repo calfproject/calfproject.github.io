@@ -1,0 +1,7 @@
+\title{parallel merge sort}
+\taxon{Theorem}
+\import{base-macros}
+
+\p{
+    The standard merge sort algorithm enjoys a logarithmic speed up when the recursive calls are performed in parallel: For all #{l : \list{A}}, we have that \isBounded{\msort{l}}{(#{\lceil \log{|l|} \rceil \cdot |l|, 2 \cdot |l| + \lceil \log |l| \rceil})}.
+}

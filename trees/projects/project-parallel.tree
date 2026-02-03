@@ -8,6 +8,6 @@
 \put\transclude/expanded{false}
 
 \transclude{parallel}
-\transclude{ver-sorting}
+\transclude{ver-parsorting}
 \transclude{ver-prefixsum}
 \transclude{ver-rbt}

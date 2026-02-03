@@ -1,0 +1,7 @@
+\title{brute-force scan}
+\taxon{Theorem}
+\import{base-macros}
+
+\p{
+    The brute-force scan algorithm does not benefit from parallelism: we have that \isBounded{\scanbf{l}{\oplus}{\epsilon}}{(|l|, |l|)}.
+}

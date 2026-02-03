@@ -1,0 +1,7 @@
+\title{divide-and-conquer scan}
+\taxon{Theorem}
+\import{base-macros}
+
+\p{
+    The divide-and-conquer scan algorithm improves parallelism as the cost of increased work: we have that \isBounded{\scandc{l}{\oplus}{\epsilon}}{#{(2  \cdot \lceil \log{|l|} \rceil + 2) \cdot |l|, 2 \cdot \lceil \log{|l|} \rceil}}.
+}

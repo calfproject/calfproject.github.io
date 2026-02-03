@@ -8,5 +8,5 @@
 \import{base-macros}
 
 \p{
-  Calf is parameterized by an ordered monoid #{(\C, \le_\C 0, +)} to represent cost ([[niu-sterling-grodin-harper-2022]]).
+  Calf is parameterized by an ordered monoid #{(\C, \le_\C, 0, +)} to represent cost ([[niu-sterling-grodin-harper-2022]]).
 }

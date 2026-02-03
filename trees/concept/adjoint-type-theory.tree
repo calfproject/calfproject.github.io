@@ -11,3 +11,7 @@
     \text{Comp. Type} & A,B,C & ::= & \F{X} \mid X \rightharpoonup A \mid X \rtimes A
   \end{array}
 }
+
+\p{In particular, #{\U{-}} and #{\F{-}} form an adjunction between value types and computation types. The value types extend dependent type theory with the suspension type #{\U{-}} of call-by-push-value and the linear homomorphism type #{A \multimap B} of the Enriched Effect Calculus. The computation types include effectful computations of value types #{\F{-}} and function types #{X \rightharpoonup A}.
+}
+

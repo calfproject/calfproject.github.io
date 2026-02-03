@@ -1,0 +1,7 @@
+\title{parallel merge sort (improved)}
+\taxon{Theorem}
+\import{base-macros}
+
+\p{
+    To obtain a sublinear bound on parallel complexity, one must modify merge sort to also perform the merging step in parallel, an alteration that slightly increases the sequential complexity: For all #{l : \list{A}}, we have that \isBounded{\msortPar{l}}{(#{\lceil \log{(|l| + 1)} \rceil^2 \cdot |l|,  \lceil \log{(|l| + 1)} \rceil^3})}.
+}
