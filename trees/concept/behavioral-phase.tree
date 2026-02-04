@@ -8,7 +8,7 @@
 \import{base-macros}
 
 \p{
-    Adding [[cost-effect]] annotations make it harder to speak about the behavior of programs in a cost-agnostic way. To address this, [Calf](niu-sterling-grodin-harper-2022) introduces a \emph{synthetic phase distinction} between the cost and behavioral aspects of programs. In the behavioral phase, cost profiling are ignored, allowing us to reason about the functional behavior of programs as if they were in extensional type theory. 
+    Adding [[cost-effect]] annotations make it harder to speak about the behavior of programs in a cost-agnostic way. To address this, [Calf](niu-sterling-grodin-harper-2022) introduces a \em{synthetic phase distinction} between the cost and behavioral aspects of programs. In the behavioral phase, cost profiling are ignored, allowing us to reason about the functional behavior of programs as if they were in extensional type theory. 
 }
 \p{
     To achieve this, Calf adds an abstract intuitionistic proposition #{\beh : \kw{Prop}} with a governing axiom:
