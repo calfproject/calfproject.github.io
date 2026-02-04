@@ -74,6 +74,7 @@
 \def\bind[e][f]{#{\kw{bind}\prn{\e;\f}}}
 \def\ret[a]{#{\kw{ret}\prn{\a}}}
 \def\N{#{\mathbb{N}}}
+\def\beh{#{\kw{beh}}}
 
 \def\Sub[arg1]{#{_{\arg1}}}
 \def\Sup[arg1]{#{^{\arg1}}}
@@ -131,12 +132,14 @@
 }
 
 \def\list[A]{#{\kw{list}(\A)}}
+\def\rbt[A]{#{\kw{rbt}(\A)}}
 \def\isort[l]{#{\kw{isort}(\l)}}
 \def\msort[l]{#{\kw{msort}(\l)}}
 \def\msortPar[l]{#{\kw{msortPar}(\l)}}
 \def\scanbf[l][b][e]{#{\kw{scan}_{\kw{bruteforce}}(\l, \b, \e)}}
 \def\scandc[l][b][e]{#{\kw{scan}_{\kw{divideconquer}}(\l, \b, \e)}}
 \def\scancon[l][b][e]{#{\kw{scan}_{\kw{contraction}}(\l, \b, \e)}}
+\def\join[t1][a][t2]{#{\kw{join}(\t1, \a, \t2)}}
 \def\isBounded[e][c]{#{\kw{isBounded}(\e; \c)}}
 
 \p{This tree defines the basic notational macros used across my forest, building on that of [Jon Sterling](https://git.sr.ht/~jonsterling/public-forest/tree/main/item/trees/base-macros.tree).}

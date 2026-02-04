@@ -3,5 +3,9 @@
 \import{base-macros}
 
 \p{
-    
+    For all valid red black trees #{t_1,t_2 : \rbt{A}}, and element #{a : A}, we have the cost (work and span) of #{\join{t_1}{a}{t_2}} is bounded by
+    ##{
+        1 + 2 \cdot (\lceil \log{(1 + \overline{|t_1|})} \rceil - \lfloor \frac{\lceil \log{(1 + \overline{|t_2|})} \rceil - 1}{2} \rfloor)
+    }
+    where #{\overline{|t_1|} = \max{(|t_1|, |t_2|)}} and #{\overline{|t_2|} = \min{(|t_1|, |t_2|)}}.
 }

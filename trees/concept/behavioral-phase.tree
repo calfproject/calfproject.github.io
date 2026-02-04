@@ -7,4 +7,19 @@
 
 \import{base-macros}
 
-\p{[[niu-sterling-grodin-harper-2022]], [[grodin-niu-sterling-harper-2024]]}
+\p{
+    Adding [[cost-effect]] annotations make it harder to speak about the behavior of programs in a cost-agnostic way. To address this, [Calf](niu-sterling-grodin-harper-2022) introduces a \emph{synthetic phase distinction} between the cost and behavioral aspects of programs. In the behavioral phase, cost profiling are ignored, allowing us to reason about the functional behavior of programs as if they were in extensional type theory. 
+}
+\p{
+    To achieve this, Calf adds an abstract intuitionistic proposition #{\beh : \kw{Prop}} with a governing axiom:
+    ##{
+        \beh \to \charge{c}{a} = a
+    }
+    meaning that assuming #{\beh} (in the behavioral phase), cost effects are to be ignored. This allows for proof that, for example, two sorting algorithms are equivalent in behavior #{\beh \to \msort{l} = \isort{l}}, even if they have different cost profiles.
+}
+\p{
+    Behavioral phase reasoning also affects [[inequality]] in [Decalf](grodin-niu-sterling-harper-2024). In particular, inequalities between computations becomes strict equality in the behavioral phase:
+    ##{
+        \beh \to x \le_X x' \to x = x'
+    }
+}
