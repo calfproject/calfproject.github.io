@@ -19,3 +19,4 @@
 \transclude{bib}
 \transclude{artifact}
 \transclude{team}
+\transclude{acknowledgement}
