@@ -1,0 +1,9 @@
+\title{Decalf: A Directed, Effectful Cost-Aware Logical Framework}
+\taxon{Talk}
+\author{hgrodin}
+\meta{venue}{[[popl24]]}
+\meta{date}{2024-01-18}
+\meta{slides}{https://www.harrisongrodin.com/assets/pdf/2024-01-18-popl.pdf}
+\meta{video}{https://youtu.be/JQNL0NQbaiE?si=dLiug5uFxbaPT-su}
+
+\p{Conference talk at [POPL '24](popl24), presenting [[grodin-niu-sterling-harper-2024]].}

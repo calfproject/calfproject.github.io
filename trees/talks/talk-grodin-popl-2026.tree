@@ -1,0 +1,9 @@
+\title{Abstraction Functions as Types: Modular Verification of Cost and Behavior in Dependent Type Theory}
+\taxon{Talk}
+\author{hgrodin}
+\meta{venue}{[[popl26]]}
+\meta{date}{2026-01-16}
+\meta{slides}{https://www.harrisongrodin.com/assets/pdf/2026-01-16-popl.pdf}
+\meta{video}{https://youtu.be/XgJBFJWMUxI?si=yNVWWa3rueH07Q8S}
+
+\p{Conference talk at [POPL '26](popl26), presenting [[grodin-li-harper-2026]].}

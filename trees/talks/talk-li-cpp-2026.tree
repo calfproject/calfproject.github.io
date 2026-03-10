@@ -1,0 +1,9 @@
+\title{Mechanizing Synthetic Tait Computability in Istari}
+\taxon{Talk}
+\author{runmingl}
+\meta{venue}{[[cpp26]]}
+\meta{date}{2026-01}
+\meta{slides}{https://www.cs.cmu.edu/~runmingl/slide/mstc-cpp.pdf}
+\meta{video}{https://youtu.be/HGa6a1zXAcA?si=WJt49Chs9Dp3czEq}
+
+\p{Conference talk at [CPP '26](cpp26), presenting [[li-yao-harper-2026]].}

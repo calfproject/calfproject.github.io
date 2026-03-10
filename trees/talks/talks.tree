@@ -1,0 +1,13 @@
+\title{Talks}
+
+\p{This page lists talks related to the Calf project.}
+
+\put\transclude/expanded{true}
+\put\transclude/metadata{true}
+
+\transclude{talk-harper-wg28-2026}
+\transclude{talk-grodin-popl-2026}
+\transclude{talk-li-cpp-2026}
+\transclude{talk-grodin-mfps-2024}
+\transclude{talk-grodin-popl-2024}
+\transclude{talk-niu-popl-2022}
