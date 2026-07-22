@@ -7,6 +7,12 @@
 
 \put\transclude/expanded{false}
 
+\p{\strong{Related papers}}
+\ul{
+  \li{[[zhou-2025]]}
+  \li{[[niu-sterling-grodin-harper-2022]]}
+}
+
 \transclude{parallel}
 \transclude{ver-parsorting}
 \transclude{ver-prefixsum}

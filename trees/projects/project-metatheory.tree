@@ -6,5 +6,9 @@
 
 \put\transclude/expanded{false}
 
-\p{[[li-harper-2025]]}
-\p{[[li-yao-harper-2026]]}
+\p{\strong{Related papers}}
+\ul{
+  \li{[[li-grodin-harper-2026]]}
+  \li{[[li-yao-harper-2026]]}
+  \li{[[li-harper-2025]]}
+}

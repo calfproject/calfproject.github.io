@@ -1,0 +1,17 @@
+\title{Agda Mechanization of Potential Functions as Types}
+\taxon{Artifact}
+\author{hgrodin}
+\author{ethanchu}
+\author{runmingl}
+\author{janh}
+\author{rwh}
+
+\p{
+  \ul{
+    \li{Rendered view: [https://www.cs.cmu.edu/~runmingl/pfat/README.html](https://www.cs.cmu.edu/~runmingl/pfat/README.html)}
+  }
+}
+
+\p{
+  This Agda mechanization accompanies [[grodin-chu-li-hoffmann-harper-2026]]. It formalizes the value- and computation-level modalities, fracture and gluing, potential functions as types, credits and debits, the batched-queue case study, and the embedding of Giralf in Calf. It is checked with Agda 2.8.0, the Agda standard library 2.3, and the Cubical library 0.9.
+}

@@ -9,6 +9,8 @@
   Search and explore this site by \code{Ctrl+K} (or \code{Cmd+K} on Mac).
 }
 
+\transclude{news}
+
 \put\transclude/numbered{true}
 \put\transclude/expanded{true}
 

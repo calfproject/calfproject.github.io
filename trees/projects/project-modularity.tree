@@ -5,3 +5,9 @@
 \author{rwh}
 
 \put\transclude/expanded{false}
+
+\p{\strong{Related papers}}
+\ul{
+  \li{[[grodin-chu-li-hoffmann-harper-2026]]}
+  \li{[[grodin-li-harper-2026]]}
+}

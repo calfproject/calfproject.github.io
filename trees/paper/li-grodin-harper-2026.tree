@@ -1,0 +1,23 @@
+\title{Directed proof-relevant logical relations in simplicial HoTT}
+\taxon{Reference}
+\author{runmingl}
+\author{hgrodin}
+\author{rwh}
+\meta{venue}{Manuscript}
+\meta{doi}{10.48550/arXiv.2607.08154}
+\meta{bibtex}\verb<<<|
+@misc{li-grodin-harper>2026,
+  title         = {Directed proof-relevant logical relations in simplicial HoTT},
+  author        = {Runming Li and Harrison Grodin and Robert Harper},
+  year          = {2026},
+  url           = {https://arxiv.org/abs/2607.08154},
+  eprint        = {2607.08154},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.LO}
+}<<<
+
+\p{\strong{Research artifact:} [[dprlr-agda]].}
+
+\p{
+  Intrinsically-typed presentations of type theory often use equality in the meta-language to represent object-language judgmental equality. In such equational syntax, proof-relevant logical relations define computability predicates on judgmental equivalence classes of types and terms. This approach, however, does not directly account for reduction, which is directed and plays a central role in many logical-relations arguments. This paper develops a directed version of proof-relevant logical relations in simplicial homotopy type theory, where reductions are internalized as \em{inequality types}. We construct object syntax as a directed quotient inductive type. The central observation is that contravariant families in simplicial type theory provide exactly the proof-relevant form of closure under expansion for logical relations: computability evidence can be transported backward along reductions, with the required functoriality and universal property built in. Using this observation, we construct a unary logical relations model with contravariant computability predicates and prove directed Boolean canonicity: every closed Boolean term reduces to either true or false. We then extend the construction to dependent types and universes, where a comonadic flat modality provides the discreteness needed for type conversion and universe predicates. Finally, we adapt the method to binary logical relations, separating vertical reduction from horizontal parametricity and obtaining a proof-relevant account of representation independence.
+}

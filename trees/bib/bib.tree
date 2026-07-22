@@ -8,5 +8,6 @@
 \transclude{bib-calf}
 \transclude{bib-calf-cost}
 \transclude{bib-calf-metatheory}
+\transclude{bib-related-metatheory}
 \transclude{bib-calf-meta}
 \transclude{bib-calf-thesis}

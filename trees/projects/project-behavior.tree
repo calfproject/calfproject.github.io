@@ -7,4 +7,12 @@
 
 \put\transclude/expanded{false}
 
+\p{\strong{Related papers}}
+\ul{
+  \li{[[grodin-chu-li-hoffmann-harper-2026]]}
+  \li{[[grodin-li-harper-2026]]}
+  \li{[[grodin-niu-sterling-harper-2024]]}
+  \li{[[niu-sterling-grodin-harper-2022]]}
+}
+
 \transclude{behavioral-phase}

@@ -3,6 +3,8 @@
 \put\transclude/expanded{false}
 \put\transclude/metadata{true}
 
+\transclude{pfat-agda}
+\transclude{dprlr-agda}
 \transclude{calf-agda}
 \transclude{afat-agda}
 \transclude{stc-istari}

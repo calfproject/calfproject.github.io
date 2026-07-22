@@ -1,0 +1,25 @@
+\title{Potential Functions as Types: A Synthetic Modal Formulation of Amortized Cost}
+\taxon{Reference}
+\author{hgrodin}
+\author{ethanchu}
+\author{runmingl}
+\author{janh}
+\author{rwh}
+\meta{venue}{Manuscript}
+\meta{doi}{10.48550/arXiv.2607.08547}
+\meta{bibtex}\verb<<<|
+@misc{grodin-chu-li-hoffmann-harper>2026,
+  title         = {Potential Functions as Types: A Synthetic Modal Formulation of Amortized Cost},
+  author        = {Harrison Grodin and Ethan Chu and Runming Li and Jan Hoffmann and Robert Harper},
+  year          = {2026},
+  url           = {https://arxiv.org/abs/2607.08547},
+  eprint        = {2607.08547},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.PL}
+}<<<
+
+\p{\strong{Research artifact:} [[pfat-agda]].}
+
+\p{
+  Amortized analysis can be framed from the physicist's view, amenable to manual verification in dependent type theory using potential functions, and the banker's view, amenable to automated inference in substructural type theory using type-level credit annotations. In this work, we synthesize these perspectives in Calf, a dependent type theory cost verification. From the physicist's view, we present a fracture and gluing theorem that renders every type as containing a fusion of an abstraction function and a potential function. By construction, every program between two such types must preserve abstraction, to facilitate modularity of behavior, and conserve potential, to facilitate modularity of cost. Incorporating the banker's view, we synthetically construct type operators for credits and debits. We then define Giralf, a graded substructural dependent type theory for programming with credits and debits, which is semantically interpreted as a sub-language of Calf. Finally, we adapt an inference algorithm to transform a limited class of Calf programs into Giralf counterparts, automating the cost analysis of common algorithms in Calf.
+}

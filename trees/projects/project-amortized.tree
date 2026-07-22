@@ -7,7 +7,14 @@
 
 \put\transclude/expanded{false}
 
-\p{[[grodin-harper-2024]]}
+\p{\strong{Related papers}}
+\ul{
+  \li{[[grodin-chu-li-hoffmann-harper-2026]]}
+  \li{[[grodin-harper-2023]]}
+  \li{[[grodin-harper-2024]]}
+  \li{[[kebuladze-2025]]}
+}
+
 \transclude{ver-splaytree}
 \transclude{ver-queue}
 \transclude{ver-dynarr}

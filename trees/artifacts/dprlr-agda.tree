@@ -1,0 +1,15 @@
+\title{Cubical Agda Mechanization of Directed Proof-Relevant Logical Relations}
+\taxon{Artifact}
+\author{runmingl}
+\author{hgrodin}
+\author{rwh}
+
+\p{
+  \ul{
+    \li{Rendered view: [https://www.cs.cmu.edu/~runmingl/dprlr/DPRLR.README.html](https://www.cs.cmu.edu/~runmingl/dprlr/DPRLR.README.html)}
+  }
+}
+
+\p{
+  This Cubical Agda mechanization accompanies [[li-grodin-harper-2026]]. It formalizes simply typed directed syntax through localization, the unary gluing model, Boolean canonicity, and the basic binary contravariance result. It is checked with Agda 2.8.0 and the Cubical library 0.9.
+}
